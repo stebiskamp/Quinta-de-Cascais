@@ -11,7 +11,7 @@
   --primary-color: #fff8eb;
   --secondary-color: #3d4495;
   --terciary-color: #ffba41;
-  --forth-color: rgba(0, 0, 0, 0.767)
+  --forth-color: rgba(0, 0, 0, 0.767);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --primary-font: primaryFont;
   --secondary-font: secondaryFont;
@@ -69,7 +69,7 @@ div.nossa-historia {
 }
 
 div.entradas {
-  background-color: var(--terciary-color);
+  background-color: var(--primary-color);
   color: var(--secondary-color);
 }
 
@@ -84,4 +84,18 @@ div.row {
 
 div.heading-image {
   background-image: url(../images/Bordas.jpeg);
+}
+
+.card {
+  background-color: var(--primary-color);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+
+.card-body {
+  color: var(--secondary-color);
 }
