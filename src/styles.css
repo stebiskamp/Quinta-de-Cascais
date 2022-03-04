@@ -1,12 +1,3 @@
-@font-face {
-  font-family: primaryFont;
-  src: url("Bodoni 72 Smallcaps Book.ttf");
-}
-@font-face {
-  font-family: secondaryFont;
-  src: url("Avenir.ttc");
-}
-
 :root {
   --primary-color: #fff8eb;
   --secondary-color: #3d4495;
@@ -98,4 +89,19 @@ div.heading-image {
 
 .card-body {
   color: var(--secondary-color);
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 85px;
+  }
+}
+
+@font-face {
+  font-family: primaryFont;
+  src: url("Bodoni 72 Smallcaps Book.ttf");
+}
+@font-face {
+  font-family: secondaryFont;
+  src: url("Avenir.ttc");
 }
