@@ -101,6 +101,10 @@ div.heading-image {
   color: var(--terciary-color);
 }
 
+p.pratos-principais {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 70px;
