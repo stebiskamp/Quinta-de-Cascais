@@ -105,6 +105,18 @@ div.heading-image {
   h1 {
     font-size: 70px;
   }
+  html {
+    scroll-padding-top: 12rem;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 80px;
+  }
+  html {
+    scroll-padding-top: 10rem;
+  }
 }
 
 @font-face {
