@@ -14,10 +14,6 @@ img .nossa-historia {
   max-width: 60%;
 }
 
-html {
-  scroll-padding-top: 4rem;
-}
-
 h1 {
   color: var(--secondary-color);
   font-family: var(--primary-font);
@@ -30,8 +26,13 @@ h2 {
 }
 
 h3 {
-  font-family: var(--primary-font);
   color: var(--secondary-color);
+  font-family: var(--primary-font);
+}
+h5 {
+  color: var(--secondary-color);
+  font-family: var(--secondary-font);
+  font-weight: bold;
 }
 
 h3.nossa-historia {
@@ -40,6 +41,14 @@ h3.nossa-historia {
 
 p {
   font-family: var(--secondary-font);
+}
+p.card-text {
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+}
+
+html {
+  scroll-padding-top: 4rem;
 }
 
 nav {
@@ -115,7 +124,7 @@ small .small-contato {
   color: var(--terciary-color);
 }
 
-.fa:hover {
+.fa-lg:hover {
   color: var(--primary-color);
 }
 
@@ -138,6 +147,7 @@ div.contato {
 }
 ul {
   list-style: none;
+  color: var(--secondary-color);
 }
 
 i {
@@ -156,9 +166,6 @@ i {
 @media (min-width: 768px) {
   h1 {
     font-size: 80px;
-  }
-  html {
-    scroll-padding-top: 10rem;
   }
 }
 
