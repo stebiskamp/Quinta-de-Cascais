@@ -105,7 +105,7 @@ small .small-contato {
   color: var(--terciary-color);
 }
 
-.fa {
+.fa-lg {
   display: block;
   margin: 0 auto;
   padding-top: 5px;
@@ -135,6 +135,13 @@ div.contato {
 .titulo-contato {
   color: var(--primary-color);
   font: var(--secondary-font);
+}
+ul {
+  list-style: none;
+}
+
+i {
+  display: inline;
 }
 
 @media (max-width: 576px) {
