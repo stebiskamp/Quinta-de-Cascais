@@ -86,10 +86,6 @@ div.heading-image {
   object-fit: cover;
 }
 
-.card-body {
-  color: var(--secondary-color);
-}
-
 .dropdown-menu {
   background-color: var(--terciary-color);
   color: var(--secondary-color);
@@ -105,6 +101,10 @@ p.pratos-principais {
   color: var(--secondary-color);
 }
 
+small .small-contato {
+  color: var(--terciary-color);
+}
+
 .fa {
   display: block;
   margin: 0 auto;
@@ -112,7 +112,7 @@ p.pratos-principais {
   padding-left: 20px;
   width: 100%;
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--terciary-color);
 }
 
 .fa:hover {
