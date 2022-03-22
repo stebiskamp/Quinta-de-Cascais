@@ -154,6 +154,14 @@ i {
   display: inline;
 }
 
+a.link-catalogo {
+  text-decoration: none;
+  color: var(--terciary-color);
+}
+p.p-nosso-menu {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 70px;
